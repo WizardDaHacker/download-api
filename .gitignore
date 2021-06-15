@@ -1,3 +1,8 @@
 # Local Database Instances (Ideally include the entire directory but this works for now...)
 /instance/db.sqlite
 
+# Local Python Files
+/.virtualenv/
+temp*.py
+test.py
+
