@@ -1,0 +1,4 @@
+FLASK_ENV="production"
+FLASK_DEBUG=0
+FLASK_APP="download_api"
+FLASK_RUN_PORT=9898

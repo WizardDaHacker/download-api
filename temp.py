@@ -1,0 +1,5 @@
+ses = Session(id=2)
+download = Download(hash="5e0c4c82c3ae97223aedefe902cc1dbc", data=pickle.dumps({"kool": "test"}))
+ses.downloads.append(download)
+db.session.add(ses)
+db.session.commit()
